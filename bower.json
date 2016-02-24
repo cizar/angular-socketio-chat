@@ -1,0 +1,22 @@
+{
+  "name": "angular-socketio-chat",
+  "description": "AngularJS + Socket.IO Chat Demo",
+  "main": "index.js",
+  "authors": [
+    "Cesar Kastli <cesarkastli@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/cizar/angular-socketio-chat",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}
