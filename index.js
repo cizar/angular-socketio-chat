@@ -1,8 +1,9 @@
 var express = require('express');
+var path = require('path');
 var app = express();
 
-app.use('/', express.static('public'));
-app.use('/bower_components', express.static('bower_components'));
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')));
 
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
